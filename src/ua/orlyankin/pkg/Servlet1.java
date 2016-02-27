@@ -32,6 +32,7 @@ public class Servlet1 extends HttpServlet {
 
 	        PrintWriter pw = response.getWriter();
 	        pw.println("<H1>Hello, world!  Привет мир!</H1>");
+	        pw.print("How are you?");
 	        pw.flush();
 		
 	}
